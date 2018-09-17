@@ -1,8 +1,18 @@
 1)
-a)
-addi x28, x0, 8
-sub x28, x30, x28
-add x28, x29, x28
-b)
-a = d + (b + c);
+  a)
+    addi x28, x0, 8
+    sub x28, x30, x28
+    add x28, x29, x28
+  b)
+    a = d + (b + c);
 2)
+  a)
+    int temp = data[1];
+    data[1] = data[2];
+    data[2] = temp;
+    temp = data[4];
+    for(int i = 1; i < 5; i++){
+      data[i] = data[i-1];
+    }
+    data[0] = temp;
+b)
