@@ -1,0 +1,8 @@
+1)
+a)
+addi x28, x0, 8
+sub x28, x30, x28
+add x28, x29, x28
+b)
+a = d + (b + c);
+2)
