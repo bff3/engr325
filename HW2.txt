@@ -67,3 +67,35 @@
   ld x3, 4(x27)
   000000000100_1011_011_00011_0000011
 11)
+  a)
+    the rs1,rs2, and rd register address fields
+    would have to be expanded to 6 bits. New
+    funct7 codes could be added.
+  b)
+    rs1 and rd would be 6 bits. func3 would be
+    expanded to 5 bits
+  c)
+    could decrease the size of program because
+    complicated instruction combinations can be simplified.
+    could be larger because each instruction is longer
+    so programs with lots of simple instructions would be longer.
+12)
+  addi x29, x0, 0xfff
+  xor x5, x6, x29
+13)
+  +-2^18
+  0x1ffc0000 -> 0x20040000
+14)
+  +-2^12 range
+  1ffff000 to 20001000
+15)
+  0x1FFFF000 + 2^12 = 0x20000000
+  which is less than 0x20014924 so no
+16)
+  a)
+    500 * 0.75 *1.1 + 10*1.1*300+3*1.1*100 = 4042.5
+    whereas 500 * 1 + 10*300+3*100 = 3800
+  b)
+    14/13.5 = 1.037
+  c)
+    14/13.1 =1.067
